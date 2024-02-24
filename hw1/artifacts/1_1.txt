@@ -1,0 +1,40 @@
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 nl.py test.txt
+     1  asdfasd
+     2  asfd
+     3  asdfdff
+     4  fdddfdf
+     5  asdf
+     6  d
+     7  d
+     8  d
+     9  d
+    10  a
+    11  d
+    12  f
+    13  asd
+    14  f
+    15  adsv
+    16  va
+    17  dsv
+    18  d
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 nl.py
+abra
+     1  abra
+cadabra
+     2  cadabra
+mabra
+     3  mabra
+dabra
+     4  dabra
+obra
+     5  obra
+cobra
+     6  cobra
+dobra
+     7  dobra
+dobre
+     8  dobre
+kurwa bober
+     9  kurwa bober
+bober ejek
+    10  bober ejek
