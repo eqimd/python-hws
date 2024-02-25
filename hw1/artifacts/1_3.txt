@@ -1,0 +1,17 @@
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> wc test_wc.txt
+       5       8      50 test_wc.txt
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 ./wc.py test_wc.txt
+       5       8      50 test_wc.txt
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> wc test_wc.txt test.txt
+       5       8      50 test_wc.txt
+      18      18      68 test.txt
+      23      26     118 total
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 ./wc.py test_wc.txt test.txt
+       5       8      50 test_wc.txt
+      18      18      68 test.txt
+      23      26     118 total
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 ./wc.py
+abra cadabra 
+memba
+demba bemba
+       3       5      31 

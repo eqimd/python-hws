@@ -2,6 +2,7 @@ from sys import argv, stdin
 
 LEFT_TAB_SIZE = 6
 INNER_TAB_SIZE = 2
+FORMAT_STR = '{:>' + str(LEFT_TAB_SIZE) + '}' + ' '*INNER_TAB_SIZE + '{}'
 
 def main():
     fileNl = None
@@ -12,8 +13,7 @@ def main():
         fileNl = open(argv[1], 'r')
 
     for idx, line in enumerate(fileNl):
-        formatStr = '{:>' + str(LEFT_TAB_SIZE) + '}' + ' '*INNER_TAB_SIZE + '{}'
-        print(formatStr.format(idx+1, line.strip()))
+        print(FORMAT_STR.format(idx+1, line.strip()))
 
     fileNl.close()    
 

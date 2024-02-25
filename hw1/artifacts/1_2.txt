@@ -1,0 +1,108 @@
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> tail test.txt
+d
+a
+d
+f
+asd
+f
+adsv
+va
+dsv
+d
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 ./tail.py test.txt
+d
+a
+d
+f
+asd
+f
+adsv
+va
+dsv
+d
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> tail test.txt test_2.txt
+==> test.txt <==
+d
+a
+d
+f
+asd
+f
+adsv
+va
+dsv
+d
+
+==> test_2.txt <==
+fgf
+gfgfff
+fgfgfgsf
+gdsf
+gsdfgdfg
+dddd
+dd
+d
+d
+d
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 ./tail.py test.txt test_2.txt
+==> test.txt <==
+d
+a
+d
+f
+asd
+f
+adsv
+va
+dsv
+d
+
+==> test_2.txt <==
+fgf
+gfgfff
+fgfgfgsf
+gdsf
+gsdfgdfg
+dddd
+dd
+d
+d
+d
+eqimd@MacBook-Pro-Daniil ~/p/p/hw1 (main)> python3 ./tail.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+4D // тут D -- это CONTROL+D чтобы прервать stdin
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
