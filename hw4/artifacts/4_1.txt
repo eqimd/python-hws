@@ -1,0 +1,12 @@
+(.venv) eqimd@MacBook-Pro-Daniil ~/p/p/hw4 (main)> python3 fibonacci.py sync 45
+calculation time for n=45 is 0:18:06.577633
+(.venv) eqimd@MacBook-Pro-Daniil ~/p/p/hw4 (main)> python3 fibonacci.py threads 45
+calculation time for n=45 is 0:17:46.262156
+(.venv) eqimd@MacBook-Pro-Daniil ~/p/p/hw4 (main)> python3 fibonacci.py procs 45
+calculation time for n=45 is 0:02:51.006309
+
++-------------------+----------------+----------------+
+| Синхронный запуск | Потоки         | Процессы       |
++-------------------+----------------+----------------+
+| 0:18:06.577633    | 0:17:46.262156 | 0:02:51.006309 |
++-------------------+----------------+----------------+

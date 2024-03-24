@@ -1,0 +1,9 @@
+(.venv) eqimd@MacBook-Pro-Daniil ~/p/p/hw4 (main)> python3 multiproc.py
+abraCADABRA
+[2024-03-24 18:42:14.470373] Got new message from stdin: abraCADABRA
+[2024-03-24 18:42:14.471232] Sent message to lower
+[2024-03-24 18:42:19.480563] Got processed message: noenpnqnoen
+dabraabradDFDFdfdfdfdFADFASDF
+[2024-03-24 18:42:24.168156] Got new message from stdin: dabraabradDFDFdfdfdfdFADFASDF
+[2024-03-24 18:42:24.168293] Sent message to lower
+[2024-03-24 18:42:29.173987] Got processed message: qnoennoenqqsqsqsqsqsqsnqsnfqs
