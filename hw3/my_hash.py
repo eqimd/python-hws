@@ -13,22 +13,22 @@ class MyHashMixin:
     
 
 class MyHashMatrix(MyHashMixin):
-    def __init__(self, data: np.ndarray):
+    def __init__(self, data):
         self.data = data
     
-    def __add__(self, other: np.ndarray):
+    def __add__(self, other):
         if self.data.shape != other.data.shape:
             raise ValueError("matrix dimensions differ")
         
         return MyHashMatrix(self.data + other.data)
     
-    def __mul__(self, other: np.ndarray):
+    def __mul__(self, other):
         if self.data.shape != other.data.shape:
             raise ValueError("matrix dimensions differ")
         
         return MyHashMatrix(self.data * other.data)
     
-    def __matmul__(self, other: np.ndarray):
+    def __matmul__(self, other):
         if self.data.shape[1] != other.data.shape[0]:
             raise ValueError("matrix dimension differ")
 
